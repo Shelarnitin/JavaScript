@@ -15,3 +15,7 @@
 * Objects
 * scope
 
+3. 03_basics
+* For-of & for-in loop
+* Loops
+* switch-Nullish
