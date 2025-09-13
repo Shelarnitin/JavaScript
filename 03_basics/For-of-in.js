@@ -49,3 +49,47 @@
 
 
 /*******************For-In Loop****************************/
+// used to iterate over object properties (keys)
+
+// Loop over object properties
+
+// let person = { name: "Neo", age: 26, city:"pune"}
+// for(let key in person){
+//     console.log(key,"=", person[key])
+// }
+
+// Loopp over array indexes
+
+// let colors = ["red", "green", "blue"];
+// for(let index in colors){
+//     console.log(index,"=",colors[index])
+// }
+
+// count numbers of properties in object
+
+// let car = { brand:"tesla", model:"x",price:90000}
+// let count = 0;
+// for(let key in car){
+//     // console.log(key,"=",car[key])
+//     count++
+// }
+// console.log("properties:",count)
+
+// clone object using loop
+
+// let source = {x:1, y:2};
+// let clone = {};
+// for(let key in source){
+//    //console.log(key,"=",source[key])
+    // clone[key] = source[key];
+// }
+// console.log(clone)
+
+// validate object for empty keys
+
+// let config = {x:1};
+// let isEmpty = true;
+// for(let key in config){
+//     isEmpty = false
+// }
+// console.log("Is config empty?", isEmpty)
