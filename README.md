@@ -19,3 +19,8 @@
 * For-of & for-in loop
 * Loops
 * switch-Nullish
+
+4. Chaining with map, filter, reduce
+* filter
+* map
+* reduce
