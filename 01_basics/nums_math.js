@@ -119,3 +119,4 @@
 // console.log(typeof("sum of 10 and 20 is " +a + b));
 // console.log(typeof(a + b)+" is sum of 10 and 20 is ");
 
+export const pi = 3.14;

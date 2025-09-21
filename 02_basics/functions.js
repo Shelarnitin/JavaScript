@@ -60,6 +60,7 @@
 //     this.name = name;
 // }
 // let p1 = new person("Nitin");
+// console.log(p1)
 // console.log(p1.name);
 // console.log("Hello ",p1.name)
 
@@ -94,3 +95,4 @@
 //     callback(name);
 // }
 // processUserInput((n) => console.log("Hello " + n));
+

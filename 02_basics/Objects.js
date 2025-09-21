@@ -2,26 +2,26 @@
 
 // basically objects are a 5 types
 // (1) Object literals
-// let person = { 
+// let person = {
 //     name: "Nitin",
-//     age:26,
-//     ispass: true
-// };
-// console.log(person);  // { name: 'Nitin', age: 26, ispass: true }
+//     age : 26,
+//     isPass : true,
+// }
+// console.log(person)  // { name: 'Nitin', age: 26, ispass: true }
 
 
 // (2) Using new object
-// let car = new Object();
-// car.brand = "Tata";
-// car.model = "curve";
-// console.log(car);  // { brand: 'Tata', model: 'curve' }
+// let car = new Object()
+// car.brand = "tata"
+// car.model = "curve"
+// console.log(car)  // { brand: 'Tata', model: 'curve' }
 
 // (3.1) constructor function
-// function User(name, email) {
-//     this.name = name;
-//     this.email = email;
+// function user(name,email){
+//     this.name = name
+//     this.email = email
 // }
-// let u1 = new User("Shelar", "Shelar@gmail.com")
+// let u1 = new user("Nitin","nitin@12")
 // console.log(u1);
 
 
@@ -46,9 +46,9 @@
 
 // (5) Object.create() * create object with prototype
 
-// let proto = { greet() {return "Hello"}};
-// let obj = Object.create(proto);
-// console.log(obj.greet());
+// let proto = {greet() {return "Nitin"}}
+// let obj = Object.create(proto)
+// console.log("Hello",obj.greet())
 
 
 
