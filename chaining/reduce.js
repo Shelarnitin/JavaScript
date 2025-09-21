@@ -8,7 +8,7 @@ console.log(newNum)
 
 // find max
 
-let arr = [1,22,3,7,4,5]
+let arr = [1,2,3,7,4,5]
 let newArr = arr.reduce((res,curr) => res>curr ? res:curr)
 console.log(newArr)
 
