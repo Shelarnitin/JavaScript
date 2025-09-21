@@ -18,7 +18,7 @@
 
 // console.log(typeof Object) // function
 
-// console.log(typeof (Function)) //function
+// console.log(typeof Function) //function
 
 
 /*****************NON-PRIMITIVE**********************/
@@ -81,6 +81,3 @@
 // console.log(empty)
 
 
-// let arr= [9,2,5,1,8,45]
-// arr.sort((a,b) => a-b)
-// console.log(arr)

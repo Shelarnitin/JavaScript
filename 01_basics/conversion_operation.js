@@ -29,6 +29,7 @@
 
 // console.log(+true)
 // console.log(+"")
+// console.log(+false)
 
 // let number = 100
 // number++
@@ -44,10 +45,10 @@
 // console.log("1" + 2 + 2)  //122
 // console.log(1 + 2 + "2")  //32
 
-let x=3
-const y=x++
+// let x=3
+// const y=x++
 
-console.log(`x=${x} y=${y}`)
+// console.log(`x=${x} y=${y}`)
 
 
 // let a=3
