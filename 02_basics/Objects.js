@@ -2,53 +2,53 @@
 
 // basically objects are a 5 types
 // (1) Object literals
-// let person = {
-//     name: "Nitin",
-//     age : 26,
-//     isPass : true,
-// }
-// console.log(person)  // { name: 'Nitin', age: 26, ispass: true }
+let person = {
+    name : "Nitin",
+    age : 26,
+    isPass : true
+}
+console.log(person)  // { name: 'Nitin', age: 26, ispass: true }
 
 
 // (2) Using new object
-// let car = new Object()
-// car.brand = "tata"
-// car.model = "curve"
-// console.log(car)  // { brand: 'Tata', model: 'curve' }
+let car = new Object()
+car.brand = "Tata"
+car.model = "curve"
+console.log(car)  // { brand: 'Tata', model: 'curve' }
 
 // (3.1) constructor function
-// function user(name,email){
-//     this.name = name
-//     this.email = email
-// }
-// let u1 = new user("Nitin","nitin@12")
-// console.log(u1);
+function user(name,email){
+    this.name = name
+    this.email = email
+}
+let u1 = new user("Nitin","nitin@12")
+console.log(u1);
 
 
 // (3.2)
-// class User {
-//     constructor(name, email){
-//         this.name = name;
-//         this.email = email;
-//     }
-// }
-// let u1 = new User("Nitin", "Nitin@gmail.com")
-// console.log(u1);
+class User {
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+}
+let u2 = new User("Nitin", "Nitin@gmail.com")
+console.log(u1);
 
 
 // (4) class(ES6)
-// class Animal{
-//     constructor(type){this.type=type}
-// }
-// let dog = new Animal("Dog")
-// console.log(dog.type);
+class Animal{
+    constructor(type){this.type="bark"}
+}
+let dog = new Animal("Dog")
+console.log(dog.type);
 
 
 // (5) Object.create() * create object with prototype
 
-// let proto = {greet() {return "Nitin"}}
-// let obj = Object.create(proto)
-// console.log("Hello",obj.greet())
+let proto = {greet() {return "Nitin"}}
+let obj = Object.create(proto)
+console.log("Hello",obj.greet())
 
 
 
