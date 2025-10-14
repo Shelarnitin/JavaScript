@@ -1,10 +1,16 @@
 // BASIC OPERATION
 
 // (1) push() * Add element at the end
+<<<<<<< HEAD
 // let arr = [1,2,3];
 // let newArr = arr.push(4)
 // console.log(arr)
 // console.log("Added element is",newArr)
+=======
+// let arr = [1,2,3]
+// arr.push(4)
+// console.log(arr)
+>>>>>>> 7bc9e59 (practice)
 
 // (2) pop() *Removes last element
 // let arr = [1,2,3,4,5]
@@ -13,11 +19,19 @@
 // console.log("Removed element is",newArr)
 
 // (3) shift() *remove first element
+<<<<<<< HEAD
 // let arr = ["Nitin","shelar"]
 // arr.shift()
 // console.log(arr)
 // arr.unshift("Neo")
 // console.log(arr)
+=======
+// let arr = ["nitin", "shelar"];
+// const removed = arr.shift();
+// console.log(arr);
+// console.log('removed element is =', removed);
+
+>>>>>>> 7bc9e59 (practice)
 
 // (4) unShift() *Add element at the first
 // let arr = ["shelar"];
@@ -51,18 +65,31 @@
 //     return x > 3
 // })
 // console.log(newArr)
+<<<<<<< HEAD
 
 // (8)reduce() *reduce to a single value
 // let arr = [1,2,3,4,5]
 // let newArr = arr.reduce((x,y) => {
 //     return x+y
+=======
+// (8)reduce() *reduce to a single value
+// let arr = [1,2,3,4,5]
+// let newArr = arr.reduce((x,y) => {
+//     return x + y
+>>>>>>> 7bc9e59 (practice)
 // })
 // console.log(newArr)
 
 // (9) find() *first matching element
+<<<<<<< HEAD
 // let arr = [1,2,3,4,5,6,7,8];
 // let newArr = arr.find((x) => x>3);
 // console.log(newArr);
+=======
+// let arr = [1,2,3,4,5,6,7]
+// const newArr = arr.find(x => x > 3);
+// console.log(newArr)
+>>>>>>> 7bc9e59 (practice)
 
 // (10) findIndex() *Index of first match
 // let arr = [10,20,30];
