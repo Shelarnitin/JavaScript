@@ -1,7 +1,6 @@
 // (1) Math.round(x) *Rounds to the nearest integer
-// console.log(Math.round(4.6));  // 5
-// console.log(Math.round(4.4));  // 4
-
+// console.log(Math.round(4.6))   //5
+// console.log(Math.round(4.1))   //4
 // (2) Math.floor(x) *Rounds down to the nearest integer
 // console.log(Math.floor(4.6));  // 4
 // console.log(Math.floor(-4.6));  // -5
