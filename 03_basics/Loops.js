@@ -2,53 +2,53 @@
 // best when you know how many times you need to iterat
 // Reverse array
 
-// let arr = [1,2,3,4,5];
-// for (let i=arr.length-1 ; i>=0 ; i--){
-//     console.log(arr[i])
-// }
+let arr = [1,2,3,4,5];
+for (let i=arr.length-1 ; i>=0 ; i--){
+    console.log(arr[i])
+}
 
 // Print multiplication table of 7
 
-// for (let i=1 ; i<=10 ; i++){
-    // console.log(`7 * ${i} = ${7*i}`)
-// }
+for (let i=1 ; i<=10 ; i++){
+    console.log(`7 * ${i} = ${7*i}`)
+}
 
 // calculate factorial of 5
-// let fact = 1;
-// for(let i=1 ; i<=5 ; i++){
-//     fact = fact * i;
-// }
-// console.log("factorial:",fact)
+let fact = 1;
+for(let i=1 ; i<=5 ; i++){
+    fact = fact * i;
+}
+console.log("factorial:",fact)
 
 // print character of a string
 
-// let sname = "Shelar";
-// for(let i=sname.length-1 ; i>=0 ; i--){
-    // console.log(sname[i])
-// }
+let sname = "SHELAR";
+for(let i=sname.length-1 ; i>=0 ; i--){
+    console.log(sname[i])
+}
 
-// let name = "shelar";
-// for(let i=0 ; i<name.length ; i++){
-    // console.log(name[i])
-// }
+let name = "shelar";
+for(let i=0 ; i<name.length ; i++){
+    console.log(name[i])
+}
 
 // find maximum in an array
 
-// let nums = [1,45,3,34,9];
-// let max = nums[0];
-// for(let i=0 ; i<nums.length ; i++){
-//     if(nums[i]> max)max = nums[i]
+let nums = [1,45,3,34,9];
+let max = nums[0];
+for(let i=0 ; i<nums.length ; i++){
+    if(nums[i]> max)max = nums[i]
 
-// }
-// console.log("max:",max)
+}
+console.log("max:",max)
 
 // create a new array with squares
-// let arr = [1,2,3,4,5];
-// let squares = [];
-// for(let i=0 ; i<arr.length ; i++){
-//     squares.push(arr[i]**2)
-// }
-// console.log(squares)
+let arr1 = [1,2,3,4,5];
+let squares = [];
+for(let i=0 ; i<arr1.length ; i++){
+    squares.push(arr1[i]**2)
+}
+console.log(squares)
 
 
 /**********While Loop******************/
