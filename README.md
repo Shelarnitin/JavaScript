@@ -24,3 +24,5 @@
 * filter
 * map
 * reduce
+
+5. DOM
