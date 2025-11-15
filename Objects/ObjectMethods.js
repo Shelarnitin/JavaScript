@@ -38,3 +38,9 @@ const combineItoms = (itom1, itom2, ...rest) => {
 
 const [mainItom, secondaryItom, ...additionalItom] = ['flour', 'water', 'salt', 'yeast'];
 combineItoms(mainItom, secondaryItom, ...additionalItom);
+
+
+const numbers = ["one", "two", "three", "four"]
+numbers.forEach((index,number) => {
+    console.log(index,number)
+})
