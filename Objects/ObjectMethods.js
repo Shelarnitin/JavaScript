@@ -27,3 +27,14 @@ let car1 = {
 
 let carInfo = car1.displayInfo();
 console.log(carInfo); // 'Honda Civic (2022)'
+
+//  The given code demonstrates the use of arrow functions, spread operator, and array destructuring to prepare a recipe.
+
+// Recipe Book using ES6+ features
+const combineItoms = (itom1, itom2, ...rest) => {
+  console.log(`Mixing ${itom1} and ${itom2} with additional ingredients: ${rest.join(', ')}`);
+  // The rest.join(', ') operation creates a string from the elements of the array rest by concatenating them with a given separator ', '
+};
+
+const [mainItom, secondaryItom, ...additionalItom] = ['flour', 'water', 'salt', 'yeast'];
+combineItoms(mainItom, secondaryItom, ...additionalItom);
