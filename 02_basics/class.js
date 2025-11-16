@@ -52,3 +52,25 @@ class HandheldConsole extends Console {
 
 let myConsole = new HandheldConsole('Nintendo', 'Switch', 5);
 myConsole.getDescription();
+
+
+
+/*************************************************************** */
+
+
+
+// TODO: Create a class named 'GameConsole'
+// TODO: Add a constructor that takes 'brand' and 'model' as parameters
+// TODO: Create a method named 'describe' that outputs the brand and model in a console log
+class GameConsole {
+    constructor(brand, model){
+        this.brand = brand
+        this.model = model
+    }
+    
+    describe(){
+        console.log(`my brand is ${this.brand} my model is ${this.model}`)
+    }
+}
+let myConsole1 = new GameConsole('YourBrand', 'YourModel');
+myConsole1.describe(); // Should output: This console is a YourBrand YourModel.
