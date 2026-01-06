@@ -71,13 +71,13 @@ console.table( [typeof number, typeof string, typeof boolean, typeof nullNumber,
 // const gamename = ("nitin")
 // console.log(gamename)
 
-// let str = "banana";
-// let empty= []
-// for (let i=0;i<str.length;i++){
-//     if(str[i]==="a"){
-//         empty.push(i)
-//     }
-// }
-// console.log(empty)
+let str = "banana";
+let empty= []
+for (let i=0;i<str.length;i++){
+    if(str[i]==="a"){
+        empty.push(i)
+    }
+}
+console.log(empty)
 
 
