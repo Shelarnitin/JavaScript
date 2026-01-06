@@ -6,15 +6,15 @@
 
 /**********PRIMITIVE*************/
 
-// let number = 1
-// let string = "Nitin"
-// let boolean = true
-// let nullNumber = null
-// let undefined;
-// let bigInt = 1234n
-// let symbol = Symbol("123")
+let number = 1
+let string = "Nitin"
+let boolean = true
+let nullNumber = null
+let undefined;
+let bigInt = 1234n
+let symbol = Symbol("123")
 
-// console.table( [typeof number, typeof string, typeof boolean, typeof nullNumber, typeof undefined,typeof  bigInt, typeof symbol])
+console.table( [typeof number, typeof string, typeof boolean, typeof nullNumber, typeof undefined,typeof  bigInt, typeof symbol])
 
 // console.log(typeof Object) // function
 
