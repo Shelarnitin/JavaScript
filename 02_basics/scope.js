@@ -18,13 +18,13 @@ greet()
 console.log(name)
 
 // *****FUNCTION SCOPE*****
-// function sayHi(){
-//     let msg = " Hi Nitin!";
-//     console.log(msg);
+function sayHi(){
+    let msg = " Hi Nitin!";
+    console.log(msg);
     
-// }
-// sayHi()
-// console.log(msg);  // Error
+}
+sayHi()
+console.log(msg);  // Error
 
 //*****BLOCK SCOPE*****/
 // if (true) {
