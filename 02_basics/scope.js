@@ -10,12 +10,12 @@
 
 
 // ******GLOBAL SCOPE******
-// let name = "Nitin";
-// function greet(){
-//     console.log("Hello "+name);
-// }
-// greet()
-// console.log(name)
+let name = "Nitin";
+function greet(){
+    console.log("Hello "+name);
+}
+greet()
+console.log(name)
 
 // *****FUNCTION SCOPE*****
 // function sayHi(){
