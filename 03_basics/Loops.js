@@ -64,10 +64,10 @@ console.log("user confirmed")
 
 //countdown timer
 
-// let time = 5;
-// while(time>0){
-//     console.log("Time left", time--)
-// }
+let time = 5;
+while(time>0){
+    console.log("Time left", time--)
+}
 
 // ATM pin validation
 
