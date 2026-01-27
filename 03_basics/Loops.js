@@ -99,11 +99,11 @@ console.log("Access granted")
 // Execute at least once, even if condition is false
 
 // Generate random numbers until we get 5
-// let random;
-// do{
-//     random = Math.floor(Math.random()*10);
-//     console.log(random)
-// }while(random !== 5)
+let random;
+do{
+    random = Math.floor(Math.random()*10);
+    console.log(random)
+}while(random !== 5)
 
 // Ask for age until valid
 // let age;
