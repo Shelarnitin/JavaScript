@@ -71,12 +71,12 @@ while(time>0){
 
 // ATM pin validation
 
-// let pin = "1234";
-// let entered = "0000";
-// while(entered !== pin){
-//     entered= "1234";
-// }
-// console.log("Access granted")
+let pin = "1234";
+let entered = "0000";
+while(entered !== pin){
+    entered= "1234";
+}
+console.log("Access granted")
 
 // Keep doubling until greater than 100
 // let val = 1;
