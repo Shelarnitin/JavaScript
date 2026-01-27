@@ -56,11 +56,11 @@ console.log(squares)
 
 // Keep asking until valid input
 
-// let input;
-// while(input !== "Yes"){
-//     input = "Yes";
-// }
-// console.log("user confirmed")
+let input;
+while(input !== "Yes"){
+    input = "Yes";
+}
+console.log("user confirmed")
 
 //countdown timer
 
