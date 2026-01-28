@@ -114,8 +114,8 @@ do{
 console.log("Valid age:",age)
 
 // Roll dice until you get a 6
-// let dice;
-// do{
-//     dice=Math.ceil(Math.random()*6);
-//     console.log("Rolled:",dice);
-// }while(dice !==6)
+let dice;
+do{
+    dice=Math.ceil(Math.random()*6);
+    console.log("Rolled:",dice);
+}while(dice !==6)
