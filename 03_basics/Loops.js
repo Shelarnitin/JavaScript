@@ -106,12 +106,12 @@ do{
 }while(random !== 5)
 
 // Ask for age until valid
-// let age;
-// do{
-//     age = 25;
+let age;
+do{
+    age = 25;
 
-// }while(age<18)
-// console.log("Valid age:",age)
+}while(age<18)
+console.log("Valid age:",age)
 
 // Roll dice until you get a 6
 // let dice;
