@@ -1,13 +1,13 @@
-// let value=2
-// switch(value){
-//     case 2:
-//         console.log("monday")
-//         break;
-//     case 1:
-//         console.log("sunday")
-//     default:
-//         break;
-// }
+let value=2
+switch(value){
+    case 2:
+        console.log("monday")
+        break;
+    case 1:
+        console.log("sunday")
+    default:
+        break;
+}
 
 
 // ************Grouping cases**************
