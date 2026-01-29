@@ -11,18 +11,18 @@ switch(value){
 
 
 // ************Grouping cases**************
-// let fruit = "Banana";
-// switch (fruit){
-//     case "apple":
-//     case "Mango":
-//     case "Banana":
-//         console.log("It`s a fruit");        
-//         break;
-//     default:
-//         console.log("It`s Not a fruit")
-//         break;
+let fruit = "Banana";
+switch (fruit){
+    case "apple":
+    case "Mango":
+    case "Banana":
+        console.log("It`s a fruit");        
+        break;
+    default:
+        console.log("It`s Not a fruit")
+        break;
     
-// }
+}
 
 // *************Switch with Expressions*********
 
