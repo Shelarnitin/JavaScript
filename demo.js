@@ -1,7 +1,7 @@
 // console.log(Math.round(4.1))
 // console.log(Math.round(4.9))
 
-console.log(Math.trunc(-3.7));
+// console.log(Math.trunc(-3.7));
 
 console.log(Math.floor(4.9));
 console.log(Math.floor(4.1));
