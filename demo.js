@@ -20,7 +20,7 @@
 
 // console.log(Math.cbrt(8));
 
-console.log(Math.pow(2,3))
+// console.log(Math.pow(2,3))
 
 console.log(Math.abs(-4))
 
