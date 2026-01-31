@@ -16,7 +16,7 @@
 // console.log(Math.max(1,2,3,2,6,5,4,3));
 // console.log(Math.min(1,2,3,2,6,5,4,3));
 
-console.log(Math.sqrt(16));
+// console.log(Math.sqrt(16));
 
 console.log(Math.cbrt(8));
 
