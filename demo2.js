@@ -7,8 +7,8 @@ console.log(square(7))
 //     console.log("I Am Anonymous");
 // },3000)
 
-function processUserInput(callback){
-    let name = "Nitin";
-    callback(name)
-}
-processUserInput((n) => console.log("Hello " + n))
+// function processUserInput(callback){
+//     let name = "Nitin";
+//     callback(name)
+// }
+// processUserInput((n) => console.log("Hello " + n))
