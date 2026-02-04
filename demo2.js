@@ -1,7 +1,7 @@
 // Arrow function => shorter syntax
 
-let square = (n) => n*n;
-console.log(square(7))
+// let square = (n) => n*n;
+// console.log(square(7))
 
 // setTimeout(function() {
 //     console.log("I Am Anonymous");
