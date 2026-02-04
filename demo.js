@@ -127,8 +127,8 @@ console.log(now)
 
 // function Expression => Stored inside a variable
 
-let greet = function(name){
-    return "Hello " + name;
-}
-console.log(greet("Nitin"))
+// let greet = function(name){
+//     return "Hello " + name;
+// }
+// console.log(greet("Nitin"))
 
