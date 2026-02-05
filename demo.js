@@ -28,8 +28,8 @@ console.log(Math.abs(-4))
 
 
 
-let now =new Date().getTime()
-console.log(now)
+// let now =new Date().getTime()
+// console.log(now)
 
 // arr.push(6)
 // console.log(arr)
