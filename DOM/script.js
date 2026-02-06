@@ -4,4 +4,4 @@ title.style.backgroundcolor = "red"
 
 
 document.getElementsbyId('firstt').innerHTML = "<p>abcdefghijklmnopqrstuvwxyz</p>"
-console.log(title)
+console.log(title) 
