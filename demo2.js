@@ -29,3 +29,7 @@ function Greet(name){
     return "Hello " + name
 }
 console.log(Greet("Nitin"))
+
+// Arrow Function (Es6) => Shorter syntax
+let square = (n) => n*n
+console.log(square(5))
