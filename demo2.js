@@ -23,3 +23,9 @@ function SayHii(){
     return "Hello"
 }
 console.log(SayHii())
+
+// Function Expression => Stored inside a veriable
+function Greet(name){
+    return "Hello " + name
+}
+console.log(Greet("Nitin"))
