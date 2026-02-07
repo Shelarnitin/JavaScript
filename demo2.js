@@ -12,3 +12,9 @@
 //     callback(name)
 // }
 // processUserInput((n) => console.log("Hello " + n))
+
+
+function add (a,b) {
+    return a + b
+}
+console.log(add(4,5))
