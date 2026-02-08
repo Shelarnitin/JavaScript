@@ -38,4 +38,11 @@ console.log(square(5))
 
 setTimeout(function () {
     console.log('I am Anonymous function')
-}, 2000)
+}, 2000);
+
+
+// Immediately Invoked Function Expression
+
+(function () {
+    console.log('IIFE Executed')
+})();
