@@ -33,3 +33,9 @@ console.log(Greet("Nitin"))
 // Arrow Function (Es6) => Shorter syntax
 let square = (n) => n*n
 console.log(square(5))
+
+// Anonymous function
+
+setTimeout(function () {
+    console.log('I am Anonymous function')
+}, 2000)
