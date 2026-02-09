@@ -50,3 +50,16 @@
     two()
  }
  one()
+
+ // CLOSURES (Scope in action) Closure = function + Lexicle Scope
+
+function counter (){
+    let count = 0;
+    return function(){
+        count++;
+        return count
+    }
+}
+let inc = counter()
+console.log(inc())
+console.log(inc())
