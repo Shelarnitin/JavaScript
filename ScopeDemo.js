@@ -25,3 +25,15 @@
  }
  SayHii()
 //  console.log(msg) // ReferenceError
+
+// LEXICAL SCOPE => function can access variable from their outer scope
+ function outer(){
+    let outerVar = " I`am Outer";
+    function inner(){
+        let innerVar = "I`am Inner"
+        console.log(outerVar)
+        console.log(innerVar)
+    }
+    inner()
+ }
+ outer()
