@@ -59,3 +59,9 @@ console.log(p1)
 console.log(p1.name)
 console.log(p2)
 console.log(p2.name)
+
+// Async Function
+async function fetchData(){
+    return " Data Received!"
+}
+fetchData().then(console.log)
