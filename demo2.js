@@ -36,13 +36,26 @@ console.log(square(5))
 
 // Anonymous function
 
+/*
 setTimeout(function () {
     console.log('I am Anonymous function')
 }, 2000);
-
 
 // Immediately Invoked Function Expression
 
 (function () {
     console.log('IIFE Executed')
 })();
+*/
+
+// CONSTRUCTOR FUNCTION => used to create multiple similar object
+
+function person(name){
+    this.name = name;
+}
+let p1 = new person("nitin")
+let p2 = new person("neo")
+console.log(p1)
+console.log(p1.name)
+console.log(p2)
+console.log(p2.name)
