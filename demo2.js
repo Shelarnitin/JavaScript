@@ -73,3 +73,13 @@ function processUserInput(callback){
     callback(name)
 }
 processUserInput((n) => console.log("Welcome " + n))
+
+//Higher Order Function
+
+function multipler(factor){
+    return function(num){
+        return num * factor
+    }
+}
+let double = multipler(3)
+console.log(double(9))
