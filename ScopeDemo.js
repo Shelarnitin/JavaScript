@@ -15,3 +15,13 @@
  }
  greet()
  console.log("Welcome " + str)
+
+ // (Function Scope) Local Scope
+ // veriable declare inside a veriable and accessible only inside it scope
+
+ function SayHii(){
+    let msg = "Hii Nitin"
+    console.log(msg)
+ }
+ SayHii()
+//  console.log(msg) // ReferenceError
