@@ -37,3 +37,16 @@
     inner()
  }
  outer()
+
+ // Scope Chain
+
+ let a = 10;
+ function one(){
+    let b = 20;
+    function two(){
+        let c = 30;
+        console.log(a,b,c)
+    }
+    two()
+ }
+ one()
