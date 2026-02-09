@@ -65,3 +65,11 @@ async function fetchData(){
     return " Data Received!"
 }
 fetchData().then(console.log)
+
+// Callback Function => a function passed as an argument to another function
+
+function processUserInput(callback){
+    let name = "Nitin"
+    callback(name)
+}
+processUserInput((n) => console.log("Welcome " + n))
