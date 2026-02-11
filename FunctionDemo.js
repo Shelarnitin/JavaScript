@@ -26,3 +26,13 @@ let obj2 = {
     }
 }
 obj2.say()
+
+// Arrow function in callback
+
+function person(name){
+    this.name = name;
+    setTimeout(() => {
+        console.log("Hello" + this.name)
+    })
+}
+let pe = new person("Nitin")
