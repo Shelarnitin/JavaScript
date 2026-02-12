@@ -132,3 +132,7 @@ console.log(Math.abs(-4))
 // }
 // console.log(greet("Nitin"))
 
+// Find() --> first matching element
+
+let arr = [10,20,30];
+console.log(arr.find(x => x > 15))
