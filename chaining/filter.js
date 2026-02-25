@@ -8,9 +8,9 @@ console.log(newNums)
 
 //Adults only
 
-let ages = [15,22,13,25,17,33]
-let adults = ages.filter(a => a>=18)
-console.log(adults)
+// let ages = [15,22,13,25,17,33]
+// let adults = ages.filter(a => a>=18)
+// console.log(adults)
 
 // Words with length
 
