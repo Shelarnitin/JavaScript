@@ -14,6 +14,6 @@ console.log(adults)
 
 // Words with length
 
-let words = ["hi","neo","hello","javascript","nitin"]
-let length = words.filter( n => n.length>3)
-console.log(length)
+// let words = ["hi","neo","hello","javascript","nitin"]
+// let length = words.filter( n => n.length>3)
+// console.log(length)
