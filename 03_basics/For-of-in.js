@@ -11,10 +11,10 @@
 
 // Loop over character in a string
 
-let word = "Neo";
-for(let char of word){
-    console.log(char)
-}
+// let word = "Neo";
+// for(let char of word){
+//     console.log(char)
+// }
 
 
 // calculate sum of numbers in array
