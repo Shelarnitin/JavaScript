@@ -3,10 +3,10 @@
 
 // Loop over array of fruits
 
-let fruits = ["Mango", "banana", "apple"];
-for(let fruit of fruits){
-    console.log(fruit)
-}
+// let fruits = ["Mango", "banana", "apple"];
+// for(let fruit of fruits){
+//     console.log(fruit)
+// }
 
 
 // Loop over character in a string
