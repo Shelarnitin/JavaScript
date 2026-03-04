@@ -136,3 +136,18 @@ console.log(Math.abs(-4))
 
 let arr = [10,20,30];
 console.log(arr.find(x => x > 15))
+
+
+// [1,2,3].map(num => console.log(num*2))
+
+// let arr = [1,2,3,4].forEach(num=> num*2)
+// // arr.forEach(num=> console.log(num*2))
+// console.log(arr)
+
+// let doubled = [1,2,3].map(x=>x*2)
+// console.log(doubled)
+
+// let evens = [1,2,3,4].filter(x => x%2 == 0)
+// console.log(evens)
+// let sum = [1,2,3,4,5].reduce((a,b) => a+b,0)
+// console.log(sum)
