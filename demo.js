@@ -151,3 +151,21 @@ console.log(arr.find(x => x > 15))
 // console.log(evens)
 // let sum = [1,2,3,4,5].reduce((a,b) => a+b,0)
 // console.log(sum)
+
+// basic array
+
+// let arr = [1,2,3,4,5]
+// console.log(arr.slice(1,4))
+
+// let arr = [1,2] , arr2 = [3,4]
+// console.log(arr.concat(arr2))
+
+
+// let arr = [1,2,3,4,[5,6,7],8,[9,10]]
+// console.log(arr.flat())
+
+// let arr = [1,7,3,5,3,9,7,8]
+// console.log(arr.sort())
+
+// let arr = [1,2,3,4,5,6,7]
+// console.log(arr.reverse())
