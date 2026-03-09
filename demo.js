@@ -169,3 +169,42 @@ console.log(arr.find(x => x > 15))
 
 // let arr = [1,2,3,4,5,6,7]
 // console.log(arr.reverse())
+
+
+
+// setTimeout(function() {
+//     console.log("I`am anonymous")
+// },2000);
+
+// (function() {
+//     console.log("IIFE executed")
+// })();
+
+
+// function persone(name){
+//     this.name = name;
+// }
+// let p1 = new persone("Neo")
+// console.log(p1)
+
+// function * numbers(){
+//     yield 1;
+//     yield 2;
+//     yield 2;
+// }
+// let gen = numbers()
+// console.log(gen.next().value)
+// console.log(gen.next().value)
+// console.log(gen.next().value)
+
+// async function fetchData(){
+//     return "Data Received..!"
+// }
+// fetchData().then(console.log)
+
+
+// function Input(c) {
+//     let name = 'Neo';
+//     c(name)
+// }
+// Input ((n) => console.log("Hello " + n))
