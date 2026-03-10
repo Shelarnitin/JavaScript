@@ -208,3 +208,18 @@ console.log(arr.find(x => x > 15))
 //     c(name)
 // }
 // Input ((n) => console.log("Hello " + n))
+
+// function Input(callback){
+//     let name = "Nitin";
+//     callback(name)
+// }
+// Input((n) => console.log("Hello " + n))
+
+
+// function multipler(factor){
+//     return function(num){
+//         return num * factor
+//     }
+// }
+// let doubled = multipler(2)
+// console.log(doubled(10))
