@@ -12,6 +12,20 @@
     }
 </style>
 <body>
-    <h1>Hello</h1>
+
 </body>
+<script>
+   const div = document.createElement('div')
+   console.log(div)
+
+   const addText = document.createTextNode("DOM Learning")
+   div.appendChild(addText)
+
+   document.body.appendChild(div)
+
+   div.style.backgroundColor = "red"
+
+   div.id = Math.round(Math.random() * 10 + 1)
+   div.className = "main"
+</script>
 </html>
