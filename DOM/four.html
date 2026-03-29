@@ -24,6 +24,16 @@
     // addLanguage("NOde")
 
 
-    
+    // METHOD TWO
+    function addLanguage(langName){
+        const li = document.createElement('li')
+        console.log(li)
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+        li.style.backgroundColor = "red"
+        
+    }
+    addLanguage("python")
+    addLanguage("react")
 </script>
 </html>
