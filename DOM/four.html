@@ -12,27 +12,25 @@
 </body>
 <script>
     // Method One
-    // function addLanguage(langName){
-    //     const li = document.createElement('li')
-    //     console.log(li)
-    //      const addText = document.createTextNode(`${langName}`)
-    //      li.appendChild(addText)
-
-    //      document.body.appendChild(li)
-    // }
-    // addLanguage("python")
-    // addLanguage("NOde")
-
-
-    // METHOD TWO
     function addLanguage(langName){
         const li = document.createElement('li')
         console.log(li)
-        li.innerHTML = `${langName}`
-        document.querySelector('.language').appendChild(li)
+        const addText = document.createTextNode(`${langName}`)
+        li.appendChild(addText)
+        document.body.appendChild(li)
     }
     addLanguage("python")
-    addLanguage("typescript")
-    addLanguage("ruby")
+
+
+    // METHOD TWO
+    // function addLanguage(langName){
+    //     const li = document.createElement('li')
+    //     console.log(li)
+    //     li.innerHTML = `${langName}`
+    //     document.querySelector('.language').appendChild(li)
+    // }
+    // addLanguage("python")
+    // addLanguage("typescript")
+    // addLanguage("ruby")
 </script>
 </html>
