@@ -1,0 +1,71 @@
+
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main container */
+.canvas {
+    margin-top: 50px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Color buttons */
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+/* Individual colors */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Instruction text */
+h2 {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+h2 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
