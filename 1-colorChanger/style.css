@@ -1,71 +1,36 @@
-
-
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
+body{
     text-align: center;
-    background-color: #f4f4f4;
+    padding: 0%;
+    margin: 0%;
 }
 
-/* Navbar */
-nav {
-    background-color: #333;
-    padding: 15px;
+nav{
+    background-color: #5a5555;
+    padding: 18px;
 }
 
-nav a {
-    color: #fff;
+nav a{
     text-decoration: none;
-    font-size: 18px;
+    color: black;
 }
 
-/* Main container */
-.canvas {
-    margin-top: 50px;
-}
-
-/* Heading */
-h1 {
-    margin-bottom: 30px;
-}
-
-/* Color buttons */
-.button {
+.button{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
     display: inline-block;
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    border: 2px solid #000;
+    padding: 2%;
 }
 
-/* Individual colors */
-#grey {
-    background-color: grey;
-}
-
-#white {
-    background-color: white;
-}
-
-#blue {
+#blue{
     background-color: blue;
 }
-
-#yellow {
-    background-color: yellow;
+#pink{
+    background-color: pink;
 }
-
-/* Instruction text */
-h2 {
-    margin-top: 30px;
-    font-size: 18px;
+#red{
+    background-color: red;
 }
-
-h2 span {
-    display: block;
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
+#purple{
+    background-color: purple;
 }
