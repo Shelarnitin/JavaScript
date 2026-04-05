@@ -1,0 +1,17 @@
+const form = document.querySelector('form');
+console.log(form);
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const height = parseInt(document.querySelector('#height').value);
+    const weight = parseInt(document.querySelector('#weight').value);
+    const results = document.querySelector('#results');
+    // console.log(height)
+    // console.log(weight)
+
+    if(height === '' || height < 0 || isNaN(height)){
+        results.innerHTML = `Please give a valid height ${height}`;
+    }
+
+})
